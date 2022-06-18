@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
+<link rel="stylesheet" type="text/css" href="css/istecss.css">
 <head>
   <meta charset="utf-8">
-  <title>Web development Assignment-1</title>
+  <title>Web development Assignment</title>
 </head>
-<header><h1>Welcome to </h1></header>
+<nav class="navbar">
+    <ul>
+    <li><a href="#">HOME</a></li>
+    <li><a href="#">ABOUT</a></li>
+    <li><a href="#">CONTACT</a></li>
+    </ul>
+</nav>
+<h1>Application form </h1>
+
 
 <form action="**">
     <fieldset> <legend>
         <h2>Fill your details</h2>
 
     </legend>
-    <table>
+    <div class="Detail-1"><table>
         <thead><tr><th>Credentials</th>
         <th>Your answer</th></tr></thead>
     
@@ -71,59 +79,62 @@
                 <input type="text" name="age" >
             </td></tr>
           
-        </label></tbody> </table>
+        </label></tbody> </table></div>
+    
     
     
     </fieldset>
-    <hr size="5" color="black">
+    
     <br><br>
     <fieldset>
-        <h3>Programming Language</h3>
-        <label for="">
-           <input type="checkbox" name="language">
-           C++
-
-        </label>
-        <label for="">
-            <input type="checkbox" name="language">
-            Python
+        
+        <div class="Detail-2">
+            <h3>Programming Language</h3>
+            <label for="">
+               <input type="checkbox" name="language">
+               C++
+    
+            </label><br>
+            <label for="">
+                <input type="checkbox" name="language">
+                Python
+     
+             </label><br>
+             <label for="">
+                <input type="checkbox" name="language">
+                Java
+     
+             </label><br>
+             <label for="">
+                <input type="checkbox" name="language">
+                HTML</div>
  
-         </label>
-         <label for="">
-            <input type="checkbox" name="language">
-            Java
- 
-         </label>
-         <label for="">
-            <input type="checkbox" name="language">
-            HTML
- 
-         </label>
+         </label><br>
          
     </fieldset>
-    <hr size="5" color="black">
-    <br>
+
     <fieldset>
-        <legend>Level of coding</legend>
-        <label for="">
-            <input type="radio" name="level">
-            Basic
-        </label>
-        <label for="">
-            <input type="radio" name="level">
-            Intermediate
-        </label>
-        <label for="">
-            <input type="radio" name="level">
-           Expert
-        </label>
-        <label for="">
-            <input type="radio" name="level">
-          World Class
-        </label>
+        <div class="Detail-3">        
+            <h4>Level of coding</h4>
+            <label for="">
+                <input type="radio" name="level">
+                Basic
+            </label><br>
+            <label for="">
+                <input type="radio" name="level">
+                Intermediate
+            </label><br>
+            <label for="">
+                <input type="radio" name="level">
+               Expert
+            </label><br>
+            <label for="">
+                <input type="radio" name="level">
+              World Class
+            </label><br></div>
+
     </fieldset>
     <br>
-    <input type="submit" value="Submit">
+    <a href="#" class="submit"></a><button>Submit</button>
 </form>
-<br>
-<footer><h3>Thanks for your cooperation! Kindly keep checking your mail for further updates.</h3></footer>
+<footer>Thanks for your cooperation! Kindly keep checking your mail for further updates.</footer>
